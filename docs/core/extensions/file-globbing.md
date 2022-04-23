@@ -77,8 +77,8 @@ PatternMatchingResult result = matcher.Execute(
     new DirectoryInfoWrapper(
         new DirectoryInfo(searchDirectory)));
 
-// Use result.HasMatches and results.Files.
-// The files in the results object are file paths relative to the search directory.
+// Use result.HasMatches and result.Files.
+// The files in the result object are file paths relative to the search directory.
 ```
 
 The preceding C# code:
